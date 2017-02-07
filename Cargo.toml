@@ -1,0 +1,8 @@
+[package]
+name = "onics_labs"
+version = "0.1.0"
+authors = ["Cole Onics <cole@onicslabs.com>"]
+
+[dependencies]
+nickel = "*"
+chrono = "0.2"
