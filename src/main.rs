@@ -10,7 +10,7 @@ use chrono::*;
 fn main() {
     let mut server = Nickel::new();
 
-    server.utilize(StaticFilesHandler::new("src/static"));
+    server.utilize(StaticFilesHandler::new("static"));
 
     server.utilize(router!(
         get "/" => |req, res| {
@@ -24,10 +24,8 @@ fn main() {
     
     server.utilize(router!(
         get "/boot" => |req, res| {
-            let utc: DateTime<UTC> = UTC::now();
             let mut data = HashMap::new();
-            let ftsig = "<em>%b</em> || Onics Labs, LLC || <em>%Y</em>"; 
-            data.insert("foot-sig", utc.format(ftsig).to_string()); 
+            data.insert("title", "Bootstrap Testing");
             return res.render("templates/boot.tpl", &data);
         }
     ));
