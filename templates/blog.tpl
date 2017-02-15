@@ -21,7 +21,7 @@
 
           <div class="masthead clearfix">
             <div class="inner">
-              <h3 class="masthead-brand">Onics Labs</h3>
+              <h3 class="masthead-brand"><a href="/">Onics Labs</a></h3>
 
               <nav>
                 <ul class="nav masthead-nav">

@@ -21,7 +21,7 @@
 
           <div class="masthead clearfix">
             <div class="inner">
-              <h3 class="masthead-brand">Onics Labs</h3>
+              <h3 class="masthead-brand"><a href="/">Onics Labs</a></h3>
 
               <nav>
                 <ul class="nav masthead-nav">
@@ -35,7 +35,7 @@
           </div>
 
           <div class="inner cover">
-            <h1 class="cover-heading">Finding bugs &amp; giving hugs.</h1>
+            <h1 class="cover-heading">Finding bugs &amp; Giving hugs</h1>
             <hr>
             <nav>
             <ul class="nav inner-nav">
@@ -50,10 +50,9 @@
             <div class="inner">
               <p>
 <a href="#">OpenBazaar</a> - 
-<a href="#">Twitter</a> - 
+<a href="https://twitter.com/onicslabs">Twitter</a> - 
 <a href="#">Yours</a> - 
-<a href="#">IRC</a> - 
-<a href="#">Github</a>
+<a href="https://github.com/onicslabs">Github</a>
               </p>
             </div>
           </div>

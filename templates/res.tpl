@@ -21,7 +21,7 @@
 
           <div class="masthead clearfix">
             <div class="inner">
-              <h3 class="masthead-brand">Onics Labs</h3>
+              <h3 class="masthead-brand"><a href="/">Onics Labs</a></h3>
 
               <nav>
                 <ul class="nav masthead-nav">
@@ -35,22 +35,15 @@
           </div>
 
           <div class="inner cover">
-            <h1 class="cover-heading">Finding bugs &amp; giving hugs.</h1>
-            <p class="lead">
-              <a href="#" class="btn btn-lg btn-default">BTC</a>
-              <a href="#" class="btn btn-lg btn-default">ETH</a>
-              <a href="#" class="btn btn-lg btn-default">ZEC</a>
-            </p>
           </div>
 
           <div class="mastfoot">
             <div class="inner">
               <p>
 <a href="#">OpenBazaar</a> - 
-<a href="#">Twitter</a> - 
+<a href="https://twitter.com/onicslabs">Twitter</a> - 
 <a href="#">Yours</a> - 
-<a href="#">IRC</a> - 
-<a href="#">Github</a>
+<a href="https://github.com/onicslabs">Github</a>
               </p>
             </div>
           </div>
