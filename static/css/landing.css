@@ -19,7 +19,6 @@ a:hover {
   border: 1px solid #fff;
 }
 
-
 /*
  * Base structure
  */
@@ -95,6 +94,22 @@ body {
   border-bottom-color: #fff;
 }
 
+/* Inner navigation blocks*/
+.inner-nav > li {
+  display: inline-block;
+}
+
+.inner-nav > li + li {
+  margin-left: 10px;
+}
+
+/* Button-style navigation blocks*/
+.btn-nav {
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 @media (min-width: 768px) {
   .masthead-brand {
     float: left;
@@ -103,7 +118,6 @@ body {
     float: right;
   }
 }
-
 
 /*
  * Cover

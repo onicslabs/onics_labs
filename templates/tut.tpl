@@ -25,21 +25,16 @@
 
               <nav>
                 <ul class="nav masthead-nav">
-                  <li class="active"><a href="#">Home</a></li>
-                  <li><a href="#">Features</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li><a href="/contact">Contact</a></li>
+                  <li><a href="/blog">Blog</a></li>
+                  <li class="active"><a href="/tutorials">Tutorials</a></li>
+                  <li><a href="/resources">Resources</a></li>
                 </ul>
               </nav>
             </div>
           </div>
 
           <div class="inner cover">
-            <h1 class="cover-heading">Finding bugs &amp; giving hugs.</h1>
-            <p class="lead">
-              <a href="#" class="btn btn-lg btn-default">BTC</a>
-              <a href="#" class="btn btn-lg btn-default">ETH</a>
-              <a href="#" class="btn btn-lg btn-default">ZEC</a>
-            </p>
           </div>
 
           <div class="mastfoot">
@@ -47,7 +42,6 @@
               <p>
 <a href="#">OpenBazaar</a> - 
 <a href="#">Twitter</a> - 
-<a href="#">Facebook</a> - 
 <a href="#">Yours</a> - 
 <a href="#">IRC</a> - 
 <a href="#">Github</a>
@@ -62,11 +56,7 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>
-      window.jQuery || 
-      document.write("<script src='js/vendor/jquery.min.js'></" . "script>")
-    </script>
+    <script src="js/vendor/jquery.min.js" integrity="sha384-ddc7ac917de26849c8a209907213fca29bc1cb7322ec27b7e275a3a412305531df1985904bd8f01c35519e928a1c983b"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
 </html>

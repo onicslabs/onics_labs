@@ -14,19 +14,41 @@ fn main() {
 
     server.utilize(router!(
         get "/" => |req, res| {
-            let utc: DateTime<UTC> = UTC::now();
             let mut data = HashMap::new();
-            let ftsig = "<em>%b</em> || Onics Labs, LLC || <em>%Y</em>"; 
-            data.insert("foot-sig", utc.format(ftsig).to_string()); 
-            return res.render("templates/landing.tpl", &data);
+            data.insert("title", "Lobby");
+            return res.render("templates/lobby.tpl", &data);
         }
     ));
-    
+
     server.utilize(router!(
-        get "/boot" => |req, res| {
+        get "/blog" => |req, res| {
             let mut data = HashMap::new();
-            data.insert("title", "Bootstrap Testing");
-            return res.render("templates/boot.tpl", &data);
+            data.insert("title", "Blog");
+            return res.render("templates/blog.tpl", &data);
+        }
+    ));
+
+    server.utilize(router!(
+        get "/contact" => |req, res| {
+            let mut data = HashMap::new();
+            data.insert("title", "Get in touch");
+            return res.render("templates/contact.tpl", &data);
+        }
+    ));
+
+    server.utilize(router!(
+        get "/resources" => |req, res| {
+            let mut data = HashMap::new();
+            data.insert("title", "Resources");
+            return res.render("templates/res.tpl", &data);
+        }
+    ));
+
+    server.utilize(router!(
+        get "/tutorials" => |req, res| {
+            let mut data = HashMap::new();
+            data.insert("title", "Tutorials");
+            return res.render("templates/tut.tpl", &data);
         }
     ));
 
